@@ -5,34 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ded9cc8-9c33-45a0-b990-c5c1813010a9" name="Changes" comment="Merge remote-tracking branch 'github/main'">
-      <change afterPath="$PROJECT_DIR$/DFS&amp;BFS/BFS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS&amp;BFS/BOJ2178.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS&amp;BFS/DFS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS&amp;BFS/음료수 얼려 먹기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS&amp;BFS/타겟 넘버.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/BOJ11399.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/BOJ2217.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort/BOJ11650.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort/BOJ1427.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort/성적이 낮은 순서로 학생 출력하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack&amp;Queue/BOJ10773.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack&amp;Queue/BOJ10828.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack&amp;Queue/BOJ11866.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack&amp;Queue/BOJ18258.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack&amp;Queue/BOJ2164.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack&amp;Queue/BOJ27433.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack&amp;Queue/BOJ28278.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack&amp;Queue/BOJ9012.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/기타/Reculsive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/기타/Stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/기타/function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/기타/parsing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/기타/tuple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/기타/연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/BOJ11651.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기타/list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort/*BOJ2798.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort/BOJ10989.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/BOJ10989.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기타/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/BOJ11650.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/BOJ11650.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +93,7 @@
     "Python.BOJ10989.executor": "Run",
     "Python.BOJ11399.executor": "Debug",
     "Python.BOJ11650.executor": "Run",
+    "Python.BOJ11651.executor": "Run",
     "Python.BOJ11866.executor": "Run",
     "Python.BOJ1427.executor": "Run",
     "Python.BOJ18258.executor": "Run",
@@ -167,11 +144,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Sort" />
       <recent name="$PROJECT_DIR$/DFS&amp;BFS" />
       <recent name="$PROJECT_DIR$/기타" />
       <recent name="$PROJECT_DIR$/List" />
       <recent name="$PROJECT_DIR$/Search" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -208,6 +185,9 @@
       <workItem from="1715317924746" duration="4202000" />
       <workItem from="1715508864323" duration="9574000" />
       <workItem from="1715522254619" duration="2469000" />
+      <workItem from="1715868747023" duration="1862000" />
+      <workItem from="1715907068786" duration="1250000" />
+      <workItem from="1716184424750" duration="3383000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <option name="closed" value="true" />
@@ -257,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714246624308</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'github/main'">
+      <option name="closed" value="true" />
+      <created>1715868771505</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715868771505</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,9 +497,10 @@
     <SUITE FILE_PATH="coverage/Algorithm$_BOJ2798.coverage" NAME="*BOJ2798 커버리지 결과" MODIFIED="1714437544557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/Algorithm$BFS.coverage" NAME="BFS 커버리지 결과" MODIFIED="1715178823309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS&amp;BFS" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ2178.coverage" NAME="BOJ2178 커버리지 결과" MODIFIED="1715185657090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS&amp;BFS" />
+    <SUITE FILE_PATH="coverage/Algorithm$BOJ11651.coverage" NAME="BOJ11651 커버리지 결과" MODIFIED="1716185786759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stack&amp;Queue" />
     <SUITE FILE_PATH="coverage/Algorithm$Swap.coverage" NAME="Swap 커버리지 결과" MODIFIED="1714165204209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/기타" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ2751.coverage" NAME="BOJ2751 커버리지 결과" MODIFIED="1714246274661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
-    <SUITE FILE_PATH="coverage/Algorithm$BOJ11650.coverage" NAME="BOJ11650 커버리지 결과" MODIFIED="1714483494262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
+    <SUITE FILE_PATH="coverage/Algorithm$BOJ11650.coverage" NAME="BOJ11650 커버리지 결과" MODIFIED="1716188190816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ1427.coverage" NAME="BOJ1427 커버리지 결과" MODIFIED="1714464308758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/Algorithm$test1.coverage" NAME="test1 커버리지 결과" MODIFIED="1714243296162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/기타" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ2217.coverage" NAME="BOJ2217 커버리지 결과" MODIFIED="1715520511479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
