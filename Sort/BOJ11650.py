@@ -1,14 +1,14 @@
-# 시간복잡도 : O(nlogn)
-
+# 시간복잡도 O(nlogn)
 import sys
 
-# 점의 개수 입력
-N = int(sys.stdin.readline())
+# 좌표의 개수 입력
+n = int(input())
 
-# 점을 리스트 내부에 있는 튜플로 입력
-points = [tuple(map(int, input().split())) for _ in range(N) ]
+# 좌표를 저장할 2차원 리스트 생성
+points = [ list(map(int, sys.stdin.readline().split())) for _ in range(n)]
 
-sorted_points = sorted(points, key=lambda point: (point[0], point[1]))
+# x좌표 먼저 오름차순 정렬 -> y좌표 오름차순 정렬
+points = sorted(points, key=lambda point : (point[0],point[1]))
 
-for point in sorted_points:
-    print(point[0], point[1])
+for point in points:
+    print(point[0],point[1])
