@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ded9cc8-9c33-45a0-b990-c5c1813010a9" name="Changes" comment="Merge remote-tracking branch 'github/main'">
-      <change afterPath="$PROJECT_DIR$/Sort/BOJ10814.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort/sys 입력.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS&amp;BFS/BOJ1260.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS&amp;BFS/BOJ18352.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS&amp;BFS/BOJ2606.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS&amp;BFS/BOJ2667.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS&amp;BFS/미로탈출.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/BOJ10825.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFS&amp;BFS/BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFS&amp;BFS/BFS.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,17 +95,22 @@
     "Python.BOJ10773.executor": "Run",
     "Python.BOJ10814.executor": "Run",
     "Python.BOJ10817.executor": "Run",
+    "Python.BOJ10825.executor": "Run",
     "Python.BOJ10989.executor": "Run",
     "Python.BOJ11399.executor": "Debug",
     "Python.BOJ11650.executor": "Run",
     "Python.BOJ11651.executor": "Run",
+    "Python.BOJ1181.executor": "Run",
     "Python.BOJ11866.executor": "Run",
     "Python.BOJ1427.executor": "Run",
     "Python.BOJ18258.executor": "Run",
+    "Python.BOJ18352.executor": "Debug",
     "Python.BOJ2164.executor": "Run",
     "Python.BOJ2178.executor": "Debug",
     "Python.BOJ2217.executor": "Debug",
     "Python.BOJ25305.executor": "Run",
+    "Python.BOJ2606.executor": "Debug",
+    "Python.BOJ2667.executor": "Debug",
     "Python.BOJ27433.executor": "Run",
     "Python.BOJ2751.executor": "Run",
     "Python.BOJ2798.executor": "Run",
@@ -117,6 +127,7 @@
     "Python.test.executor": "Run",
     "Python.test1.executor": "Run",
     "Python.계수정렬.executor": "Debug",
+    "Python.미로탈출.executor": "Debug",
     "Python.삽입정렬.executor": "Debug",
     "Python.선택정렬.executor": "Debug",
     "Python.연습.executor": "Debug",
@@ -188,7 +199,12 @@
       <workItem from="1715522254619" duration="2469000" />
       <workItem from="1715868747023" duration="1862000" />
       <workItem from="1715907068786" duration="1250000" />
-      <workItem from="1716184424750" duration="4928000" />
+      <workItem from="1716184424750" duration="7886000" />
+      <workItem from="1716424897828" duration="16758000" />
+      <workItem from="1716463727203" duration="205000" />
+      <workItem from="1716468777950" duration="599000" />
+      <workItem from="1716480114033" duration="1000" />
+      <workItem from="1716480120064" duration="10835000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <option name="closed" value="true" />
@@ -262,7 +278,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716188757108</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'github/main'">
+      <option name="closed" value="true" />
+      <created>1716190426912</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716190426912</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'github/main'">
+      <option name="closed" value="true" />
+      <created>1716192514627</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716192514627</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +485,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/DFS&amp;BFS/BFS.py</url>
-          <line>11</line>
+          <line>9</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -510,29 +542,108 @@
           <line>9</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/미로탈출.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/미로탈출.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/미로탈출.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/미로탈출.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/미로탈출.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/미로탈출.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/BOJ18352.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/BOJ18352.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/BOJ18352.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/BOJ18352.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/BOJ18352.py</url>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/BOJ2606.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/BOJ18352.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/BOJ2667.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DFS&amp;BFS/BOJ2667.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Algorithm$BOJ25305.coverage" NAME="BOJ25305 커버리지 결과" MODIFIED="1714245730146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/Algorithm$Stack.coverage" NAME="Stack 커버리지 결과" MODIFIED="1714598874282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stack&amp;Queue" />
+    <SUITE FILE_PATH="coverage/Algorithm$BOJ18352.coverage" NAME="BOJ18352 커버리지 결과" MODIFIED="1716443827236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS&amp;BFS" />
+    <SUITE FILE_PATH="coverage/Algorithm$BOJ2667.coverage" NAME="BOJ2667 커버리지 결과" MODIFIED="1716490741121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS&amp;BFS" />
     <SUITE FILE_PATH="coverage/Algorithm$_BOJ2798.coverage" NAME="*BOJ2798 커버리지 결과" MODIFIED="1714437544557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
-    <SUITE FILE_PATH="coverage/Algorithm$BFS.coverage" NAME="BFS 커버리지 결과" MODIFIED="1715178823309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS&amp;BFS" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ2178.coverage" NAME="BOJ2178 커버리지 결과" MODIFIED="1715185657090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS&amp;BFS" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ11651.coverage" NAME="BOJ11651 커버리지 결과" MODIFIED="1716185786759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stack&amp;Queue" />
+    <SUITE FILE_PATH="coverage/Algorithm$BFS.coverage" NAME="BFS 커버리지 결과" MODIFIED="1716425724359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS&amp;BFS" />
     <SUITE FILE_PATH="coverage/Algorithm$Swap.coverage" NAME="Swap 커버리지 결과" MODIFIED="1714165204209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/기타" />
+    <SUITE FILE_PATH="coverage/Algorithm$BOJ2606.coverage" NAME="BOJ2606 커버리지 결과" MODIFIED="1716484423037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS&amp;BFS" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ2751.coverage" NAME="BOJ2751 커버리지 결과" MODIFIED="1714246274661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ11650.coverage" NAME="BOJ11650 커버리지 결과" MODIFIED="1716188190816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
+    <SUITE FILE_PATH="coverage/Algorithm$BOJ1181.coverage" NAME="BOJ1181 커버리지 결과" MODIFIED="1716192270556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ10814.coverage" NAME="BOJ10814 커버리지 결과" MODIFIED="1716189491572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ1427.coverage" NAME="BOJ1427 커버리지 결과" MODIFIED="1714464308758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/Algorithm$sys_.coverage" NAME="sys 입력 커버리지 결과" MODIFIED="1716190280805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/Algorithm$test1.coverage" NAME="test1 커버리지 결과" MODIFIED="1714243296162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/기타" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ2217.coverage" NAME="BOJ2217 커버리지 결과" MODIFIED="1715520511479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ11866.coverage" NAME="BOJ11866 커버리지 결과" MODIFIED="1715318518034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stack&amp;Queue" />
-    <SUITE FILE_PATH="coverage/Algorithm$__.coverage" NAME="음료수 얼려 먹기 커버리지 결과" MODIFIED="1715174345569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS&amp;BFS" />
+    <SUITE FILE_PATH="coverage/Algorithm$BOJ10825.coverage" NAME="BOJ10825 커버리지 결과" MODIFIED="1716440336569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
+    <SUITE FILE_PATH="coverage/Algorithm$__.coverage" NAME="음료수 얼려 먹기 커버리지 결과" MODIFIED="1716432217949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS&amp;BFS" />
     <SUITE FILE_PATH="coverage/Algorithm$DFS.coverage" NAME="DFS 커버리지 결과" MODIFIED="1715200350251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS&amp;BFS" />
-    <SUITE FILE_PATH="coverage/Algorithm$.coverage" NAME="연습 커버리지 결과" MODIFIED="1715205293576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/기타" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ11399.coverage" NAME="BOJ11399 커버리지 결과" MODIFIED="1715511236949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
+    <SUITE FILE_PATH="coverage/Algorithm$.coverage" NAME="미로탈출 커버리지 결과" MODIFIED="1716434916242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS&amp;BFS" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ9012.coverage" NAME="BOJ9012 커버리지 결과" MODIFIED="1714652266231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stack&amp;Queue" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ18258.coverage" NAME="BOJ18258 커버리지 결과" MODIFIED="1715019422774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stack&amp;Queue" />
     <SUITE FILE_PATH="coverage/Algorithm$BOJ2164.coverage" NAME="BOJ2164 커버리지 결과" MODIFIED="1715020922493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stack&amp;Queue" />
