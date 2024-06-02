@@ -1,16 +1,27 @@
-## 시간복잡도 :
-## stack을 통해 데이터를 추가하고, 길이가 홀수일 때 NO 짝수일 때 YES
-## 괄호를 하나하나의 값으로 분리해서 길이를 세야하기 때문에 스택 사용?
+# no : YES/NO 가 두번 출력 되지 않도록 체크
+# 괄호 문자열을 입력받고 '(' 을 만나면 스택에 push, ')'을 만나면 '('를 pop 한다.
+# pop을 할 때 스택이 비어있으면 NO 출력 : '('가 없는데 ')'가 먼저 나왔다는 뜻
+# 문자열을 모두 확인하고 나서, 스택이 비어있고 NO가 이미 출력되지 않았다면 YES 출력 : NO가 출력되지 않았는데 스택이 비어있다는 것은 괄호쌍이 올바른 것
+# 스택이 비어있지 않으면 NO 출력 : ')' 가 나오지 않아 '('가 pop 되지 않음
 
 import sys
-n = int(sys.stdin.readline())
 
-for i in range(n):
-    # 입력 받는 법 ㅠㅠ
-    stack = list(sys.stdin.readline().rstrip())
-    if len(stack) % 2 == 0:
-        print("YES")
-    else:
-        print("NO")
+n = int(input())
 
-
+for _ in range(n):
+    s = []
+    no = 0
+    S = sys.stdin.readline().rstrip()
+    for p in S:
+        if p == '(':
+            s.append(p)
+        else:
+            if not s:
+                print('NO')
+                no += 1
+                break
+            s.pop()
+    if not s and no != 1:
+        print('YES')
+    elif s:
+        print('NO')

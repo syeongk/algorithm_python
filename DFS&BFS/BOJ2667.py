@@ -44,7 +44,7 @@ def dfs(r,c):
     # 맵을 벗어나있지 않다면, 집이 있는 곳인지 확인합니다.
     if graph[r][c] == 1:
         # 집이 있다면, 단지 이름 (2부터) 지정하고 집의 개수 체크
-        graph[r][c] = apart
+        graph[r][c] = name
         count += 1
         # 현재 노드의 상,하,좌,우에 있는 노드를 호출합니다.
         dfs(r-1,c) #상
@@ -52,11 +52,12 @@ def dfs(r,c):
         dfs(r,c-1) #좌
         dfs(r,c+1) #우
         return True
+    # 1이 아니라면 함수 종료
     return False
 
-apart = 2
-big_c = 0
-small_c = []
+name = 2
+C = 0
+counts = []
 
 for i in range(n):
     for j in range(n):
@@ -64,15 +65,15 @@ for i in range(n):
         # 하나의 단지를 찾았다는 것
         if dfs(i,j)==True:
             # 단지 수 증가시킴
-            big_c += 1
+            C += 1
             # 다음에 실행할 함수에서 단지 이름 변경시킴
-            apart += 1
+            name += 1
             # 단지 내 집의 수
-            small_c.append(count)
+            counts.append(count)
 
 
-small_c = sorted(small_c)
+counts = sorted(counts)
 
-print(big_c)
-for i in range(big_c):
-    print(small_c[i])
+print(C)
+for i in range(C):
+    print(counts[i])

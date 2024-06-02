@@ -1,30 +1,38 @@
 from collections import deque
 import sys
 
-# 행, 열 입력받기
+# 행, 열, 미로(인접 노드 - 1) 입력받기
+
 n, m = map(int, input().split())
+maze = [list(map(int, sys.stdin.readline().rstrip())) for i in range(n)]
 
 
-def BFS(x,y):
-    maze = [list(map(int, sys.stdin.readline().rstrip())) for _ in range(n)]
+# 인접 노드로 탐색을 위한 이동 방향 (상,하,좌,우)
+dr = (-1, 1, 0, 0)
+dc = (0, 0, -1, 1)
 
-    start = maze[0][0]
-    queue_now = deque([start])
-    count = 1
-
-    # queue_now가 비어있으면 False로 간주
-    while queue_now:
-        # 큐의 left의 인접노드 (범위 넘어가지 않고 1인 노드만) 큐에 추가. 추가한 인접노드를 배열에서 최단경로 값으로 변경한다.
-        node = queue_now.popleft()
-
-        direction = [maze[x-1][y], maze[x][y-1], maze[x+1][y], maze[x][y+1]]
-        for i in direction:
-            if i == 1 and i != None:
-                queue_now.append()
-                count += 1
-                i = count
-
-    return maze[n][m]
+def bfs(r, c):
+    # 큐에 시작노드 append, 시작노드 방문
+    queue = deque()
+    queue.append((r, c))
 
 
-print(BFS(n,m))
+    while queue:
+        r,c = queue.popleft()
+        for i in range(4):
+            nr = r + dr[i]
+            nc = c + dc[i]
+
+            if nr < 0 or nr >= n or nc < 0 or nc >= m:
+                continue
+            if maze[nr][nc] == 0:
+                continue
+            if maze[nr][nc] == 1:
+                # 방문처리
+                maze[nr][nc] = maze[r][c] + 1
+                queue.append((nr,nc))
+    return(maze[n-1][m-1])
+
+
+print(bfs(0,0))
+
